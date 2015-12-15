@@ -11,7 +11,7 @@ import utils
 # encoding: utf-8
 
 class Account(object):
-    DEFAULT_ENDPOINT = 'https://api.omniture.com/admin/1.3/rest/'
+    DEFAULT_ENDPOINT = 'https://api.omniture.com/admin/1.4/rest/'
 
     def __init__(self, username, secret, endpoint=DEFAULT_ENDPOINT):
         self.username = username
